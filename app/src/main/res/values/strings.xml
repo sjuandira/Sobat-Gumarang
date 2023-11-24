@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SoGu</string>
+    <string name="kota_asal">kota asal</string>
+    <string name="jam_berangkat">jam berangkat</string>
+    <string name="tgl_berangkat">tgl berangkat</string>
+    <string name="harga">Harga</string>
+    <string name="kota_tujuan">kota tujuan</string>
+    <string name="jam_sampai">jam sampai</string>
+    <string name="tgl_sampai">tgl sampai</string>
+    <string name="asal">Pilih</string>
+    <string name="tujuan">Pilih</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

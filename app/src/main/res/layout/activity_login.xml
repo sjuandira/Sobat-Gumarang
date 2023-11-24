@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e62730"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's sign you in."
+        android:textColor="@color/white"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="155dp"
+        android:text="Welcome back."
+        android:textColor="@color/white"
+        android:textSize="33dp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="195dp"
+        android:text="You've been missed!"
+        android:textColor="@color/white"
+        android:textSize="33dp"
+        />
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"
+        android:padding="16dp"
+        android:ems="17"
+        android:inputType="textPersonName"
+        android:hint="Email or username"
+        android:textSize="16dp"
+        android:background="@drawable/edittext_background"
+        />
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"
+        android:padding="16dp"
+        android:ems="17"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="16dp"
+        android:textColor="#8e4343"
+        android:background="@drawable/edittext_background"
+        />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="42dp"
+        android:animateLayoutChanges="true">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonlg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="17"
+            android:text="Sign in"
+            android:textColor="#8e4343"
+            android:background="@drawable/btnsign"
+            />
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"/>
+    </FrameLayout>
+    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="500dp"
+        android:text="Don't have an account?"
+        android:textColor="#8E4343"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="500dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+</RelativeLayout>

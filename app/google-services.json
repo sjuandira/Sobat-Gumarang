@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778514855515",
+    "project_id": "sogu-app-62cd1",
+    "storage_bucket": "sogu-app-62cd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778514855515:android:14f82d47df84744fc9b17e",
+        "android_client_info": {
+          "package_name": "com.naufalhilal.SoGu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZqixWRtN7f1ne-eVc-U81JBWjZlZMkzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
